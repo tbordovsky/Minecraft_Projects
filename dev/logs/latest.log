@@ -1,0 +1,7 @@
+[22:02:44] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[22:02:44] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[22:02:44] [Server thread/INFO]: Loading properties
+[22:02:44] [Server thread/INFO]: Default game type: CREATIVE
+[22:02:44] [Server thread/INFO]: Generating keypair
+[22:02:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:02:45] [Server thread/INFO]: Using default channel type
