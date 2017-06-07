@@ -1,103 +1,26 @@
-[21:26:58] [Server thread/INFO]: Starting minecraft server version 1.11.2
-[21:26:58] [Server thread/INFO]: Loading properties
-[21:26:58] [Server thread/INFO]: Default game type: SURVIVAL
-[21:26:58] [Server thread/INFO]: Generating keypair
-[21:26:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:26:59] [Server thread/INFO]: Using default channel type
-[21:26:59] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-6e3cec8 (MC: 1.11.2) (Implementing API version 1.11.2-R0.1-SNAPSHOT)
-[21:26:59] [Server thread/ERROR]: Could not load 'plugins\MagicSpellsTowny.jar' in folder 'plugins'
-org.bukkit.plugin.UnknownDependencyException: Towny
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.loadPlugins(CraftServer.java:298) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.<init>(CraftServer.java:260) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at net.minecraft.server.v1_11_R1.PlayerList.<init>(PlayerList.java:73) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at net.minecraft.server.v1_11_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at net.minecraft.server.v1_11_R1.DedicatedServer.init(DedicatedServer.java:185) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:521) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
-[21:26:59] [Server thread/ERROR]: Could not load 'plugins\MagicSpellsFactions.jar' in folder 'plugins'
-org.bukkit.plugin.UnknownDependencyException: Factions
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.loadPlugins(CraftServer.java:298) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.<init>(CraftServer.java:260) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at net.minecraft.server.v1_11_R1.PlayerList.<init>(PlayerList.java:73) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at net.minecraft.server.v1_11_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at net.minecraft.server.v1_11_R1.DedicatedServer.init(DedicatedServer.java:185) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:521) [craftbukkit-1.11.2.jar:git-Bukkit-6e3cec8]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
-[21:26:59] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[21:26:59] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[21:26:59] [Server thread/INFO]: [MagicSpells] Loading MagicSpells v3.5-dev-1705242119
-[21:26:59] [Server thread/INFO]: [MagicSpellsMemory] Loading MagicSpellsMemory v1.2-dev-1705242119
-[21:26:59] [Server thread/INFO]: [MagicSpellsShop] Loading MagicSpellsShop v1.6-dev-1705242119
-[21:26:59] [Server thread/INFO]: [MagicSpellsTeams] Loading MagicSpellsTeams v1.0-dev-1705242119
-[21:26:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:26:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:26:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:26:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:26:59] [Server thread/INFO]: Preparing level "world"
-[21:27:00] [Server thread/INFO]: Preparing start region for level 0 (Seed: -6034787789463599394)
-[21:27:01] [Server thread/INFO]: Preparing spawn area: 6%
-[21:27:02] [Server thread/INFO]: Preparing spawn area: 60%
-[21:27:02] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6034787789463599394)
-[21:27:03] [Server thread/INFO]: Preparing spawn area: 79%
-[21:27:04] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6034787789463599394)
-[21:27:04] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[21:27:04] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[21:27:04] [Server thread/INFO]: [MagicSpells] Enabling MagicSpells v3.5-dev-1705242119
-[21:27:04] [Server thread/WARN]: [MagicSpells] This MagicSpells version is not fully compatible with this server version.
-[21:27:04] [Server thread/WARN]: [MagicSpells] Some features have been disabled.
-[21:27:04] [Server thread/WARN]: [MagicSpells] See http://nisovin.com/magicspells/volatilefeatures for more information.
-[21:27:04] [Server thread/INFO]: [MagicSpells] Initializing permissions
-[21:27:04] [Server thread/INFO]: [MagicSpells] Loading predefined items...
-[21:27:04] [Server thread/INFO]: [MagicSpells] ...0 predefined items loaded
-[21:27:04] [Server thread/INFO]: [MagicSpells] Loading variables...
-[21:27:04] [Server thread/INFO]: [MagicSpells] ...0 variables loaded
-[21:27:04] [Server thread/INFO]: [MagicSpells] Loading spells...
-[21:27:05] [Server thread/WARN]: [MagicSpells] LONG SPELL LOAD TIME: clarity: 88ms
-[21:27:05] [Server thread/WARN]: [MagicSpells] LONG SPELL LOAD TIME: enderchest: 78ms
-[21:27:05] [Server thread/WARN]: [MagicSpells] LONG SPELL LOAD TIME: minion: 93ms
-[21:27:05] [Server thread/WARN]: [MagicSpells] LONG SPELL LOAD TIME: shadowstep: 63ms
-[21:27:05] [Server thread/INFO]: [MagicSpells] ...spells loaded: 88
-[21:27:05] [Server thread/INFO]: [MagicSpells] Finalizing perms...
-[21:27:05] [Server thread/INFO]: [MagicSpells] ...done
-[21:27:05] [Server thread/INFO]: [MagicSpells] Initializing spells...
-[21:27:05] [Server thread/INFO]: [MagicSpells] ...done
-[21:27:05] [Server thread/INFO]: [MagicSpells] Loading online player spellbooks...
-[21:27:05] [Server thread/INFO]: [MagicSpells] ...done
-[21:27:05] [Server thread/INFO]: [MagicSpells] Initializing passive manager...
-[21:27:05] [Server thread/INFO]: [MagicSpells] ...done
-[21:27:05] [Server thread/INFO]: [MagicSpells] Restored cooldowns
-[21:27:05] [Server thread/INFO]: [MagicSpells] Enabling mana bars...
-[21:27:05] [Server thread/INFO]: [MagicSpells] ...done
-[21:27:05] [Server thread/INFO]: [MagicSpells] Loading cast listeners...
-[21:27:05] [Server thread/INFO]: [MagicSpells] ...done
-[21:27:05] [Server thread/INFO]: [MagicSpells] MagicSpells loading complete!
-[21:27:05] [Server thread/INFO]: [MagicSpellsMemory] Enabling MagicSpellsMemory v1.2-dev-1705242119
-[21:27:05] [Server thread/INFO]: [MagicSpellsShop] Enabling MagicSpellsShop v1.6-dev-1705242119
-[21:27:05] [Server thread/INFO]: [MagicSpellsShop] MagicSpellsShop config loaded.
-[21:27:05] [Server thread/INFO]: [MagicSpellsTeams] Enabling MagicSpellsTeams v1.0-dev-1705242119
-[21:27:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:27:06] [Server thread/INFO]: Done (6.386s)! For help, type "help" or "?"
-[21:27:16] [Server thread/INFO]: vaughandevine[/127.0.0.1:52855] logged in with entity id 318 at ([world]-327.9414895061799, 64.0, 257.59784004731864)
-[21:27:21] [Server thread/INFO]: vaughandevine issued server command: /class mage
-[21:27:24] [Server thread/INFO]: vaughandevine issued server command: /cast fireball
-[21:27:28] [Server thread/INFO]: vaughandevine issued server command: /cast freeze
-[21:27:32] [Server thread/INFO]: vaughandevine issued server command: /cast lightning
-[21:27:34] [Server thread/INFO]: vaughandevine issued server command: /cast list
-[21:27:38] [Server thread/INFO]: vaughandevine issued server command: /cast cleanse
-[21:27:41] [Server thread/INFO]: vaughandevine issued server command: /cast gate
-[21:27:46] [Server thread/INFO]: vaughandevine issued server command: /cast fly
-[21:27:51] [Server thread/INFO]: vaughandevine issued server command: /cast tome geyser 1
-[21:27:58] [Server thread/INFO]: vaughandevine issued server command: /cast spellbook geyser 2
-[21:28:13] [Server thread/INFO]: De-opped vaughandevine
-[21:28:18] [Server thread/INFO]: vaughandevine issued server command: /cast list
-[21:28:20] [Server thread/INFO]: vaughandevine issued server command: /cast fireball
-[21:28:23] [Server thread/INFO]: vaughandevine issued server command: /cast waterwalk
-[21:28:29] [Server thread/INFO]: vaughandevine issued server command: /cast telekinesis
-[21:28:40] [Server thread/INFO]: vaughandevine issued server command: /cast freeze
-[21:28:46] [Server thread/INFO]: vaughandevine issued server command: /cast explode
-[21:28:49] [Server thread/INFO]: vaughandevine issued server command: /cast levitate
-[21:28:54] [Server thread/INFO]: vaughandevine issued server command: /cast haste
-[21:29:23] [Server thread/INFO]: vaughandevine lost connection: Disconnected
-[21:29:23] [Server thread/INFO]: vaughandevine left the game
+[22:39:44] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[22:39:44] [Server thread/INFO]: Loading properties
+[22:39:44] [Server thread/INFO]: Default game type: SURVIVAL
+[22:39:44] [Server thread/INFO]: Generating keypair
+[22:39:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:39:45] [Server thread/INFO]: Using default channel type
+[22:39:45] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-6e3cec8 (MC: 1.11.2) (Implementing API version 1.11.2-R0.1-SNAPSHOT)
+[22:39:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:39:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:39:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:39:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:39:45] [Server thread/INFO]: Preparing level "world"
+[22:39:45] [Server thread/INFO]: Preparing start region for level 0 (Seed: -6034787789463599394)
+[22:39:46] [Server thread/INFO]: Preparing spawn area: 21%
+[22:39:47] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6034787789463599394)
+[22:39:48] [Server thread/INFO]: Preparing spawn area: 75%
+[22:39:49] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6034787789463599394)
+[22:39:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:39:49] [Server thread/INFO]: Done (3.743s)! For help, type "help" or "?"
+[22:40:06] [Server thread/INFO]: Stopping the server
+[22:40:06] [Server thread/INFO]: Stopping server
+[22:40:06] [Server thread/INFO]: Saving players
+[22:40:06] [Server thread/INFO]: Saving worlds
+[22:40:06] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:40:07] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[22:40:07] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
