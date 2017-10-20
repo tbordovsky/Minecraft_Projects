@@ -4,11 +4,26 @@ groups:
       default: true
     permissions:
     - modifyworld.*
-schema-version: 1
-users:
-  00dc4e69-db36-3ea5-9e4c-0349f98a2647:
-    group: []
+  Member:
+    permissions:
+    - modifyworld.*
+    - easysetspawn.spawn
     options:
-      name: vaughandevine
-      last-login-time: '1496804616'
-      last-logout-time: '1496804731'
+      rank: '900'
+      prefix: Member
+  Admin:
+    permissions:
+    - modifyworld.*
+    - permissions.*
+    - easysetspawn.*
+    - multiverse.access.*
+    options:
+      rank: '1'
+      prefix: Admin
+users:
+  bc157dc0-751d-4451-835f-159fe7c5982a:
+    group:
+    - Admin
+    options:
+      name: Vaughan_93
+schema-version: 1
